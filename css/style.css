@@ -195,6 +195,7 @@
   margin-left: 2px;
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 24px;
 }
 
 .inner .inner_btn {
@@ -203,10 +204,9 @@
   background-color: #f74d55;
   font-size: 24px;
   font-weight: 400;
-  margin-top: 24px;
-  padding: 10px 27px 9px 25px;
+  margin-left: 6px;
+  padding: 10px 25px;
   border-radius: 7px;
-  cursor: pointer;
 }
 
 /* Main */
@@ -320,7 +320,7 @@
   font-weight: 300;
   line-height: 24.72px;
   overflow: auto;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .features__btn {
@@ -351,5 +351,46 @@
 
 .item3-btn {
   background-color: #1c3d25;
+}
+
+/* Aside */
+.aside {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: #383537 url(../img/aside-bg.jpg) center no-repeat/cover;
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.aside::before {
+  content: '';
+  position: absolute;
+  width: 1280px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  background-color: #030503;
+  opacity: 0.88;
+  z-index: -1;
+}
+
+.aside__text {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  font-size: 42px;
+  line-height: 53.72px;
+  font-weight: 300;
+}
+
+.aside__btn {
+  padding: 5px 30px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */
