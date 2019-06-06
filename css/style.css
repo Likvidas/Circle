@@ -393,4 +393,27 @@
   color: #ffffff;
   font-size: 30px;
 }
+
+/* Footer */
+.footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer__color-line {
+  -webkit-transform: translate(0, -8px);
+          transform: translate(0, -8px);
+}
+
+.footer__copyright {
+  margin-bottom: 24px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 53.72px;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=style.css.map */
